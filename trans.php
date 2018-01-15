@@ -38,7 +38,7 @@ $result = $conn->query($sql);
 </table>
 <br><br>
 <h3 ><b>Total:</b></h3><h3 id = "total">0</h3>
-<input type = "submit" />
+<input type = "submit" value = "Checkout"/>
 </form>
 
 </center>
