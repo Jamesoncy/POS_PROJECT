@@ -1,6 +1,6 @@
 <?php
 include_once("conn.php");
-$sql = "SELECT * FROM products";
+$sql = "SELECT * FROM products where status = 1";
 $result = $conn->query($sql);
 ?>
 <center>
